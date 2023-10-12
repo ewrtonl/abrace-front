@@ -50,7 +50,7 @@ export default function Home() {
       <header>
         <div className="head">
           <div className="logo">
-            <img src="./src/assets/Vector.svg" alt="" />
+            <img src="../assets/Vector.svg" alt="" />
             <h1>abrace</h1>
           </div>
           <div className="search-box">
@@ -79,7 +79,7 @@ export default function Home() {
                 setIsModalActionOpen(true);
                 setModalTitle("Atletas do Futuro");
                 setModalImg(
-                  "./src/assets/serge-kutuzov-_FPy-FUndok-unsplash.jpg"
+                  "../assets/serge-kutuzov-_FPy-FUndok-unsplash.jpg"
                 );
                 setModalDate("13 a 15");
                 setModalLoc("Bugio");
@@ -98,7 +98,7 @@ export default function Home() {
                 cardMonth={"Out"}
                 cardTitle={"Atletas do Futuro"}
                 cardLoc={"Bugio"}
-                image={"./src/assets/serge-kutuzov-_FPy-FUndok-unsplash.jpg"}
+                image={"../assets/serge-kutuzov-_FPy-FUndok-unsplash.jpg"}
               />
             </a>
 
@@ -124,7 +124,7 @@ export default function Home() {
                 cardMonth={"Out"}
                 cardTitle={"Oficina Arte e Cultura"}
                 cardLoc={"Santa Maria"}
-                image={"./src/assets/oficinaartes.jpg"}
+                image={"../assets/oficinaartes.jpg"}
               />
             </a>
 
@@ -132,7 +132,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Salvando Patinhas");
-                setModalImg("./src/assets/catanddog.jpg");
+                setModalImg("../assets/catanddog.jpg");
                 setModalDate("30");
                 setModalLoc("Grageru");
                 setModalMonth("Outubro");
@@ -150,7 +150,7 @@ export default function Home() {
                 cardMonth={"Out"}
                 cardTitle={"Salvando Patinhas"}
                 cardLoc={"Grageru"}
-                image={"./src/assets/catanddog.jpg"}
+                image={"../assets/catanddog.jpg"}
               />
             </a>
 
@@ -158,7 +158,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Cozinha da Oportunidade");
-                setModalImg("./src/assets/cooking.jpg");
+                setModalImg("../assets/cooking.jpg");
                 setModalDate("13 a 17");
                 setModalLoc("Getúlio Vargas");
                 setModalMonth("Novembro");
@@ -178,7 +178,7 @@ export default function Home() {
                 cardMonth={"Nov"}
                 cardTitle={"Cozinha da Oportunidade"}
                 cardLoc={"Getúlio Vargas"}
-                image={"./src/assets/cooking.jpg"}
+                image={"../assets/cooking.jpg"}
               />
             </a>
 
@@ -186,7 +186,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Arco-Íris da Esperança");
-                setModalImg("./src/assets/lovewins.jpg");
+                setModalImg("../assets/lovewins.jpg");
                 setModalDate("06");
                 setModalLoc("Centro");
                 setModalMonth("Novembro");
@@ -204,7 +204,7 @@ export default function Home() {
                 cardMonth={"Nov"}
                 cardTitle={"Arco-Íris da Esperança"}
                 cardLoc={"Centro"}
-                image={"./src/assets/lovewins.jpg"}
+                image={"../assets/lovewins.jpg"}
               />
             </a>
 
@@ -212,7 +212,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Projeto Rua Limpa");
-                setModalImg("./src/assets/street.jpg");
+                setModalImg("../assets/street.jpg");
                 setModalDate("11");
                 setModalLoc("Porto Dantas");
                 setModalMonth("Novembro");
@@ -230,7 +230,7 @@ export default function Home() {
                 cardMonth={"Nov"}
                 cardTitle={"Projeto Rua Limpa"}
                 cardLoc={"Porto Dantas"}
-                image={"./src/assets/street.jpg"}
+                image={"../assets/street.jpg"}
               />
             </a>
           </div>
@@ -245,7 +245,7 @@ export default function Home() {
             onClick={() => {
               setIsModalActionOpen(true);
               setModalTitle("Guarda-Roupa Solidário");
-              setModalImg("./src/assets/donationclothes.jpg");
+              setModalImg("../assets/donationclothes.jpg");
               setModalDate("🟢");
               setModalLoc("Japãozinho");
               setModalMonth("Em Andamento");
@@ -261,7 +261,7 @@ export default function Home() {
             <CardOn
               cardTitle={"Guarda-Roupa Solidário"}
               cardLoc={"Japãozinho"}
-              image={"./src/assets/donationclothes.jpg"}
+              image={"../assets/donationclothes.jpg"}
             />
           </a>
 
@@ -269,7 +269,7 @@ export default function Home() {
             onClick={() => {
               setIsModalActionOpen(true);
               setModalTitle("Revitalização do Rio Poxim");
-              setModalImg("./src/assets/cleaningriver.jpg");
+              setModalImg("../assets/cleaningriver.jpg");
               setModalDate("🟢");
               setModalLoc("Farolândia");
               setModalMonth("Em Andamento");
@@ -285,7 +285,7 @@ export default function Home() {
             <CardOn
               cardTitle={"Revitalização do Rio Poxim"}
               cardLoc={"Farolândia"}
-              image={"./src/assets/cleaningriver.jpg"}
+              image={"../assets/cleaningriver.jpg"}
             />
           </a>
 
@@ -293,7 +293,7 @@ export default function Home() {
             onClick={() => {
               setIsModalActionOpen(true);
               setModalTitle("Projeto Mãos Que Alimentam");
-              setModalImg("./src/assets/fooding.jpg");
+              setModalImg("../assets/fooding.jpg");
               setModalDate("🟢");
               setModalLoc("Centro");
               setModalMonth("Em Andamento");
@@ -309,7 +309,7 @@ export default function Home() {
             <CardOn
               cardTitle={"Projeto Mãos Que Alimentam"}
               cardLoc={"Centro"}
-              image={"./src/assets/fooding.jpg"}
+              image={"../assets/fooding.jpg"}
             />
           </a>
 
@@ -317,7 +317,7 @@ export default function Home() {
             onClick={() => {
               setIsModalActionOpen(true);
               setModalTitle("Cine Comunidade");
-              setModalImg("./src/assets/cinema.jpg");
+              setModalImg("../assets/cinema.jpg");
               setModalDate("🟢");
               setModalLoc("Santos Dumont");
               setModalMonth("Em Andamento");
@@ -333,7 +333,7 @@ export default function Home() {
             <CardOn
               cardTitle={"Cine Comunidade"}
               cardLoc={"Santos Dumont"}
-              image={"./src/assets/cinema.jpg"}
+              image={"../assets/cinema.jpg"}
             />
           </a>
         </div>
@@ -403,7 +403,7 @@ export default function Home() {
 
       <footer>
         <div className="logo">
-          <img src="./src/assets/Vector.svg" alt="" />
+          <img src="../assets/Vector.svg" alt="" />
           <h1>abrace</h1>
         </div>
         <p>© 2023</p>
