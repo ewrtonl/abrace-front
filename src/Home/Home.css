@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #cb94ff;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #cd93ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 40px;
+}
+
+header {
+  min-height: 400px;
+  padding-bottom: 30px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: -6px;
+  color: #ffff;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  filter: none;
+  height: auto;
+  width: 70px;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 450px;
+}
+
+.search-box input {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 3px 3px #252628;
+  border: 1px solid #282825;
+}
+
+input:focus {
+  outline: 1px solid #252628;
+}
+
+.more {
+  margin-top: 70px;
+}
+
+.more h3 {
+  font-size: 30px;
+  color: #ffff;
+  font-weight: 800;
+}
+
+.more button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  color: #252628;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 20px;
+  background: rgba(255, 208, 55, 0.7);
+  border-radius: 30px;
+  box-shadow: 3px 3px #252628;
+  border: 1px solid #282825;
+
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.more button:hover {
+  background: rgba(255, 208, 55, 1);
+}
+
+main {
+  background-color: rgba(27, 27, 27, 0.2);
+  padding: 40px;
+  border-radius: 30px;
+
+  box-shadow: 8px 8px #252628;
+  border: 1px solid #282825;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: -1px;
+  font-size: 35px;
+  color: #ffffff;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.actions-box {
+  padding: 10px 10px 40px 5px;
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.righton {
+  margin-top: 40px;
+  background-image: linear-gradient(
+    331deg,
+    rgba(244, 208, 63, 0.5) 0%,
+    rgba(22, 160, 133, 0.5) 87%
+  );
+
+  padding: 40px;
+  border-radius: 30px;
+
+  box-shadow: 8px 8px #252628;
+  border: 1px solid #282825;
+}
+
+.righton-box {
+  padding: 30px 15px 40px 15px;
+  display: flex;
+  gap: 30px;
+
+  overflow-x: auto;
+}
+
+.whotohelp {
+  margin-top: 40px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 106, 136, 0.2) 55%,
+    rgba(255, 153, 172, 0.2) 100%
+  );
+
+  padding: 40px;
+  border-radius: 30px;
+
+  box-shadow: 8px 8px #252628;
+  border: 1px solid #282825;
+}
+
+.whotohelp-box {
+  padding: 30px 10px 30px 5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.whotohelp .desc {
+  margin-top: 5px;
+  font-weight: 500;
+  text-align: justify;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 50px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+footer .logo img {
+  width: 50px;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+footer .logo h1 {
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: #ffff;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+footer p {
+  font-size: 22px;
+  color: #ffff;
+  font-weight: 600;
+  filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ececec;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: none;
+  border-radius: 10px;
+}

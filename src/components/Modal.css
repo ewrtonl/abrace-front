@@ -1,0 +1,103 @@
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: #f7cb45;
+  width: 90%;
+  height: 80%;
+  margin: 70px auto;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+
+  overflow-y: auto;
+}
+
+.close {
+  font-size: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .logo h1 {
+  color: #282825;
+  font-weight: 800;
+  font-size: 40px;
+  letter-spacing: -4px;
+}
+
+.about h2,
+.about h3,
+.about h4,
+.about p {
+  color: #282825;
+  filter: none;
+}
+
+.about p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about img {
+  width: 100px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.step-num {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+}
+
+.step-num h4 {
+  padding: 10px 17px;
+  box-shadow: 3px 3px #252628;
+  border: 1px solid #282825;
+}
+
+.step-num h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: left;
+}
+
+.step-box p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+}
