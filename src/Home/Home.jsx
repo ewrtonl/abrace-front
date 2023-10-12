@@ -221,7 +221,7 @@ export default function Home() {
                   "https://img.freepik.com/premium-vector/nature-tree-shoot-logo-vector-design-by-hand-tree-logo-vector-symbol-illustration-design_629573-229.jpg"
                 );
                 setModalDesc(
-                  "O projeto Arco-Íris da Esperança é um farol de amor e esperança para pessoas LGBTQ+ em situação de rua e aquelas que enfrentam desafios de saúde. Ao fornecer cuidados abrangentes e apoio emocional, estamos criando um ambiente onde todos possam florescer e encontrar a esperança e a aceitação que merecem. Com o apoio de voluntários comprometidos, profissionais de saúde e parceiros da comunidade, estamos trabalhando para tornar o mundo mais acolhedor e inclusivo para todos, independentemente de sua orientação sexual ou identidade de gênero."
+                  "O projeto social Rua Limpa é uma iniciativa com o propósito de promover a conscientização ambiental e melhorar a qualidade de vida em nossa comunidade, por meio da limpeza e preservação das ruas e espaços públicos. Nosso objetivo é mobilizar voluntários e residentes locais para assumir a responsabilidade de manter nossas ruas livres de lixo e resíduos, promovendo um ambiente mais limpo e saudável para todos."
                 );
               }}
             >
