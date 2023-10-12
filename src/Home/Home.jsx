@@ -50,7 +50,7 @@ export default function Home() {
       <header>
         <div className="head">
           <div className="logo">
-            <img src="/src/assets/Vector.svg" alt="" />
+            <img src="./src/assets/Vector.svg" alt="" />
             <h1>abrace</h1>
           </div>
           <div className="search-box">
