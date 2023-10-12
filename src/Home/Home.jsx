@@ -50,7 +50,7 @@ export default function Home() {
       <header>
         <div className="head">
           <div className="logo">
-            <img src="src/assets/Vector.svg" alt="" />
+            <img src="https://i.ibb.co/SKpGhQf/Vector.png" alt="" />
             <h1>abrace</h1>
           </div>
           <div className="search-box">
@@ -79,7 +79,7 @@ export default function Home() {
                 setIsModalActionOpen(true);
                 setModalTitle("Atletas do Futuro");
                 setModalImg(
-                  "../assets/serge-kutuzov-_FPy-FUndok-unsplash.jpg"
+                  "https://i.ibb.co/xC6jFF5/serge-kutuzov-FPy-FUndok-unsplash.jpg"
                 );
                 setModalDate("13 a 15");
                 setModalLoc("Bugio");
@@ -98,7 +98,7 @@ export default function Home() {
                 cardMonth={"Out"}
                 cardTitle={"Atletas do Futuro"}
                 cardLoc={"Bugio"}
-                image={"../assets/serge-kutuzov-_FPy-FUndok-unsplash.jpg"}
+                image={"https://i.ibb.co/xC6jFF5/serge-kutuzov-FPy-FUndok-unsplash.jpg"}
               />
             </a>
 
@@ -106,7 +106,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Oficina Arte e Cultura");
-                setModalImg("./src/assets/oficinaartes.jpg");
+                setModalImg("https://i.ibb.co/tLQXdz6/oficinaartes.jpg");
                 setModalDate("18 a 22");
                 setModalLoc("Santa Maria");
                 setModalMonth("Outubro");
@@ -124,7 +124,7 @@ export default function Home() {
                 cardMonth={"Out"}
                 cardTitle={"Oficina Arte e Cultura"}
                 cardLoc={"Santa Maria"}
-                image={"../assets/oficinaartes.jpg"}
+                image={"https://i.ibb.co/tLQXdz6/oficinaartes.jpg"}
               />
             </a>
 
@@ -132,7 +132,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Salvando Patinhas");
-                setModalImg("../assets/catanddog.jpg");
+                setModalImg("https://i.ibb.co/dcZH3d6/catanddog.jpg");
                 setModalDate("30");
                 setModalLoc("Grageru");
                 setModalMonth("Outubro");
@@ -150,7 +150,7 @@ export default function Home() {
                 cardMonth={"Out"}
                 cardTitle={"Salvando Patinhas"}
                 cardLoc={"Grageru"}
-                image={"../assets/catanddog.jpg"}
+                image={"https://i.ibb.co/dcZH3d6/catanddog.jpg"}
               />
             </a>
 
@@ -158,7 +158,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Cozinha da Oportunidade");
-                setModalImg("../assets/cooking.jpg");
+                setModalImg("https://i.ibb.co/yqBS2kv/cooking.jpg");
                 setModalDate("13 a 17");
                 setModalLoc("Getúlio Vargas");
                 setModalMonth("Novembro");
@@ -178,7 +178,7 @@ export default function Home() {
                 cardMonth={"Nov"}
                 cardTitle={"Cozinha da Oportunidade"}
                 cardLoc={"Getúlio Vargas"}
-                image={"../assets/cooking.jpg"}
+                image={"https://i.ibb.co/yqBS2kv/cooking.jpg"}
               />
             </a>
 
@@ -186,7 +186,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Arco-Íris da Esperança");
-                setModalImg("../assets/lovewins.jpg");
+                setModalImg("https://i.ibb.co/ykBs25R/lovewins.jpg");
                 setModalDate("06");
                 setModalLoc("Centro");
                 setModalMonth("Novembro");
@@ -204,7 +204,7 @@ export default function Home() {
                 cardMonth={"Nov"}
                 cardTitle={"Arco-Íris da Esperança"}
                 cardLoc={"Centro"}
-                image={"../assets/lovewins.jpg"}
+                image={"https://i.ibb.co/ykBs25R/lovewins.jpg"}
               />
             </a>
 
@@ -212,7 +212,7 @@ export default function Home() {
               onClick={() => {
                 setIsModalActionOpen(true);
                 setModalTitle("Projeto Rua Limpa");
-                setModalImg("../assets/street.jpg");
+                setModalImg("https://i.ibb.co/mNMkrZ1/street.jpg");
                 setModalDate("11");
                 setModalLoc("Porto Dantas");
                 setModalMonth("Novembro");
@@ -230,7 +230,7 @@ export default function Home() {
                 cardMonth={"Nov"}
                 cardTitle={"Projeto Rua Limpa"}
                 cardLoc={"Porto Dantas"}
-                image={"../assets/street.jpg"}
+                image={"https://i.ibb.co/mNMkrZ1/street.jpg"}
               />
             </a>
           </div>
@@ -245,7 +245,7 @@ export default function Home() {
             onClick={() => {
               setIsModalActionOpen(true);
               setModalTitle("Guarda-Roupa Solidário");
-              setModalImg("../assets/donationclothes.jpg");
+              setModalImg("https://i.ibb.co/6tK1NYC/donationclothes.jpg");
               setModalDate("🟢");
               setModalLoc("Japãozinho");
               setModalMonth("Em Andamento");
@@ -261,7 +261,7 @@ export default function Home() {
             <CardOn
               cardTitle={"Guarda-Roupa Solidário"}
               cardLoc={"Japãozinho"}
-              image={"../assets/donationclothes.jpg"}
+              image={"https://i.ibb.co/6tK1NYC/donationclothes.jpg"}
             />
           </a>
 
@@ -269,7 +269,7 @@ export default function Home() {
             onClick={() => {
               setIsModalActionOpen(true);
               setModalTitle("Revitalização do Rio Poxim");
-              setModalImg("../assets/cleaningriver.jpg");
+              setModalImg("https://i.ibb.co/g39Fszx/cleaningriver.jpg");
               setModalDate("🟢");
               setModalLoc("Farolândia");
               setModalMonth("Em Andamento");
@@ -285,7 +285,7 @@ export default function Home() {
             <CardOn
               cardTitle={"Revitalização do Rio Poxim"}
               cardLoc={"Farolândia"}
-              image={"../assets/cleaningriver.jpg"}
+              image={"https://i.ibb.co/g39Fszx/cleaningriver.jpg"}
             />
           </a>
 
@@ -293,7 +293,7 @@ export default function Home() {
             onClick={() => {
               setIsModalActionOpen(true);
               setModalTitle("Projeto Mãos Que Alimentam");
-              setModalImg("../assets/fooding.jpg");
+              setModalImg("https://i.ibb.co/yNJ3t1S/fooding.jpg");
               setModalDate("🟢");
               setModalLoc("Centro");
               setModalMonth("Em Andamento");
@@ -309,7 +309,7 @@ export default function Home() {
             <CardOn
               cardTitle={"Projeto Mãos Que Alimentam"}
               cardLoc={"Centro"}
-              image={"../assets/fooding.jpg"}
+              image={"https://i.ibb.co/yNJ3t1S/fooding.jpg"}
             />
           </a>
 
@@ -317,7 +317,7 @@ export default function Home() {
             onClick={() => {
               setIsModalActionOpen(true);
               setModalTitle("Cine Comunidade");
-              setModalImg("../assets/cinema.jpg");
+              setModalImg("https://i.ibb.co/6WXD4QD/cinema.jpg");
               setModalDate("🟢");
               setModalLoc("Santos Dumont");
               setModalMonth("Em Andamento");
@@ -333,7 +333,7 @@ export default function Home() {
             <CardOn
               cardTitle={"Cine Comunidade"}
               cardLoc={"Santos Dumont"}
-              image={"../assets/cinema.jpg"}
+              image={"https://i.ibb.co/6WXD4QD/cinema.jpg"}
             />
           </a>
         </div>
@@ -403,7 +403,7 @@ export default function Home() {
 
       <footer>
         <div className="logo">
-          <img src="../assets/Vector.svg" alt="" />
+          <img src="https://i.ibb.co/SKpGhQf/Vector.png" alt="" />
           <h1>abrace</h1>
         </div>
         <p>© 2023</p>
