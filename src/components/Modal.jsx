@@ -98,7 +98,7 @@ function Modal({ isOpen, onClose }) {
                 e dedicação podem fazer toda a diferença.
               </p>
 
-              <img src="./src/assets/VectorDark.svg" alt="" />
+              <img src="https://i.ibb.co/Px31zBX/Vector-Dark.png" alt="" />
             </div>
           </div>
         </div>
